@@ -7,5 +7,24 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: "Poppins", sans-serif;
-    color: #FFF;
+    color: #210024;
+}
+
+.game-page {
+    background-color: #FBF8F8;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.game-page h1 {
+    text-align: center;
+}
+
+.game-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
