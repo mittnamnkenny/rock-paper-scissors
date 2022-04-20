@@ -9,7 +9,8 @@ const computerScissors = document.getElementById("computer-scissors");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 
-
+let playerCount = 0;
+let computerCount = 0;
 
 rock.addEventListener("click", function() {
     let randomRock = Math.floor(Math.random() * 3) + 1;
@@ -19,9 +20,11 @@ rock.addEventListener("click", function() {
         console.log("tie");
     } else if (randomRock === 2) {
         computerPaper.style.visibility = "visible";
+        computerScore.textContent = ++computerCount;
         console.log("loss");
     } else {
         computerScissors.style.visibility = "visible";
+        playerScore.textContent = ++playerCount;
         console.log("win");
     }
 
@@ -41,9 +44,11 @@ paper.addEventListener("click", function() {
         console.log("tie");
     } else if (randomPaper === 2) {
         computerScissors.style.visibility = "visible";
+        computerScore.textContent = ++computerCount;
         console.log("loss");
     } else {
         computerRock.style.visibility = "visible";
+        playerScore.textContent = ++playerCount;
         console.log("win");
     }
 
@@ -63,9 +68,11 @@ scissors.addEventListener("click", function() {
         console.log("tie");
     } else if (randomScissors === 2) {
         computerRock.style.visibility = "visible";
+        computerScore.textContent = ++computerCount;
         console.log("loss");
     } else {
         computerPaper.style.visibility = "visible";
+        playerScore.textContent = ++playerCount;
         console.log("win");
     }
 
