@@ -16,22 +16,25 @@ rock.addEventListener("click", function() {
     let randomRock = Math.floor(Math.random() * 3) + 1;
 
     if (randomRock === 1) {
-        computerRock.style.visibility = "visible";
-        console.log("tie");
+        rock.classList.add("tie");
+        computerRock.classList.add("tie");
     } else if (randomRock === 2) {
-        computerPaper.style.visibility = "visible";
+        rock.classList.add("loss");
+        computerPaper.classList.add("win");
         computerScore.textContent = ++computerCount;
-        console.log("loss");
     } else {
-        computerScissors.style.visibility = "visible";
+        rock.classList.add("win");
+        computerScissors.classList.add("loss");
         playerScore.textContent = ++playerCount;
-        console.log("win");
     }
 
     setTimeout(function() {
-        computerRock.style.visibility = "hidden";
-        computerPaper.style.visibility = "hidden";
-        computerScissors.style.visibility = "hidden";
+        rock.classList.remove("tie");
+        computerRock.classList.remove("tie");
+        rock.classList.remove("loss");
+        computerPaper.classList.remove("win");
+        rock.classList.remove("win");
+        computerScissors.classList.remove("loss");
     }, 1200);
     
 })
@@ -40,22 +43,25 @@ paper.addEventListener("click", function() {
     let randomPaper = Math.floor(Math.random() * 3) + 1;
 
     if (randomPaper === 1) {
-        computerPaper.style.visibility = "visible";
-        console.log("tie");
+        paper.classList.add("tie");
+        computerPaper.classList.add("tie");
     } else if (randomPaper === 2) {
-        computerScissors.style.visibility = "visible";
+        paper.classList.add("loss");
+        computerScissors.classList.add("win");
         computerScore.textContent = ++computerCount;
-        console.log("loss");
     } else {
-        computerRock.style.visibility = "visible";
+        paper.classList.add("win");
+        computerRock.classList.add("loss");
         playerScore.textContent = ++playerCount;
-        console.log("win");
     }
 
-  setTimeout(function() {
-    computerRock.style.visibility = "hidden";
-    computerPaper.style.visibility = "hidden";
-    computerScissors.style.visibility = "hidden";
+    setTimeout(function() {
+        paper.classList.remove("tie");
+        computerPaper.classList.remove("tie");
+        paper.classList.remove("loss");
+        computerScissors.classList.remove("win");
+        paper.classList.remove("win");
+        computerRock.classList.remove("loss");
   }, 1200);
 
 })
@@ -64,22 +70,25 @@ scissors.addEventListener("click", function() {
     let randomScissors = Math.floor(Math.random() * 3) + 1;
 
     if (randomScissors === 1) {
-        computerScissors.style.visibility = "visible";
-        console.log("tie");
+        scissors.classList.add("tie");
+        computerScissors.classList.add("tie");
     } else if (randomScissors === 2) {
-        computerRock.style.visibility = "visible";
+        scissors.classList.add("loss");
+        computerRock.classList.add("win");
         computerScore.textContent = ++computerCount;
-        console.log("loss");
     } else {
-        computerPaper.style.visibility = "visible";
+        scissors.classList.add("win");
+        computerPaper.classList.add("loss");
         playerScore.textContent = ++playerCount;
-        console.log("win");
     }
 
     setTimeout(function() {
-        computerRock.style.visibility = "hidden";
-        computerPaper.style.visibility = "hidden";
-        computerScissors.style.visibility = "hidden";
+        scissors.classList.remove("tie");
+        computerScissors.classList.remove("tie");
+        scissors.classList.remove("loss");
+        computerRock.classList.remove("win");
+        scissors.classList.remove("win");
+        computerPaper.classList.remove("loss");
     }, 1200);
 
 })

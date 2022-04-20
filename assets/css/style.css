@@ -34,6 +34,7 @@ body {
     font-size: 6em;
     margin: 10px;
     padding: 10px;
+    border-radius: 50%;
 }
 
 .game-area i:hover {
@@ -42,6 +43,24 @@ body {
     cursor: pointer;
 }
 
-.game-area-computer i {
+.computer-rock, .computer-paper, .computer-scissors {
     visibility: hidden;
+}
+
+.tie {
+    visibility: visible;
+    color: #FBF8F8;
+    background-color: #0B5E8A;
+}
+
+.win {
+    visibility: visible;
+    color: green;
+    background-color: #0B5E8A;
+}
+
+.loss {
+    visibility: visible;
+    color: red;
+    background-color: #0B5E8A;
 }
