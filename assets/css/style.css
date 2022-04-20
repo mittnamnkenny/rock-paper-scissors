@@ -35,3 +35,9 @@ body {
     margin: 10px;
     padding: 10px;
 }
+
+.game-area i:hover {
+    background-color: #0B5E8A;
+    border-radius: 50%;
+    cursor: pointer;
+}
