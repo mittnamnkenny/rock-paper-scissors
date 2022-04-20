@@ -6,6 +6,9 @@ const computerRock = document.getElementById("computer-rock");
 const computerPaper = document.getElementById("computer-paper");
 const computerScissors = document.getElementById("computer-scissors");
 
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("computer-score");
+
 
 
 rock.addEventListener("click", function() {
@@ -21,7 +24,7 @@ rock.addEventListener("click", function() {
         computerScissors.style.visibility = "visible";
         console.log("win");
     }
-    
+
     setTimeout(function() {
         computerRock.style.visibility = "hidden";
         computerPaper.style.visibility = "hidden";
