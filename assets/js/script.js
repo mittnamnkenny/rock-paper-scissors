@@ -22,6 +22,12 @@ rock.addEventListener("click", function() {
         console.log("win");
     }
     
+    setTimeout(function() {
+        computerRock.style.visibility = "hidden";
+        computerPaper.style.visibility = "hidden";
+        computerScissors.style.visibility = "hidden";
+    }, 1200);
+    
 })
 
 paper.addEventListener("click", function() {
@@ -38,6 +44,12 @@ paper.addEventListener("click", function() {
         console.log("win");
     }
 
+  setTimeout(function() {
+    computerRock.style.visibility = "hidden";
+    computerPaper.style.visibility = "hidden";
+    computerScissors.style.visibility = "hidden";
+  }, 1200);
+
 })
 
 scissors.addEventListener("click", function() {
@@ -53,5 +65,11 @@ scissors.addEventListener("click", function() {
         computerPaper.style.visibility = "visible";
         console.log("win");
     }
+
+    setTimeout(function() {
+        computerRock.style.visibility = "hidden";
+        computerPaper.style.visibility = "hidden";
+        computerScissors.style.visibility = "hidden";
+    }, 1200);
 
 })
