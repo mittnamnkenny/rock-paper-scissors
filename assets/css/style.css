@@ -25,14 +25,19 @@ body {
     padding: 30px;
 }
 
-.game-page h1 {
-    text-align: center;
-}
-
 .game-area {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.game-area h2 {
+    color: #0B5E8A;
+}
+
+.game-area span {
+    color: #210024;
+    font-size: 2em;
 }
 
 .game-area i {
