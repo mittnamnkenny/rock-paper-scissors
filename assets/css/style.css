@@ -25,11 +25,15 @@ body {
     padding: 30px;
 }
 
+.game-page h1 {
+    text-align: center;
+}
+
 .game-area {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .game-area h2 {
