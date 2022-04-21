@@ -29,6 +29,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    visibility: hidden;
 }
 
 .popup span {
@@ -36,7 +37,6 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     color: #FBF8F8;
-    background-color: #0B5E8A;
 }
 
 .game-area {
