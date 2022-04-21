@@ -29,10 +29,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .game-area h2 {
     color: #0B5E8A;
+    position: absolute;
+    top: 60px;
 }
 
 .game-area span {
