@@ -25,15 +25,25 @@ body {
     padding: 30px;
 }
 
-.game-page h1 {
-    text-align: center;
+.popup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.popup span {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #FBF8F8;
+    background-color: #0B5E8A;
 }
 
 .game-area {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .game-area h2 {
