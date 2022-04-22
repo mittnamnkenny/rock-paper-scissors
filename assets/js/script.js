@@ -3,6 +3,10 @@
 const welcomePage = document.getElementById("welcome-page");
 const playBtn = document.getElementById("play");
 
+playBtn.addEventListener("click", function() {
+    welcomePage.classList.add("hide");
+})
+
 // Game Page Section
 
 const rock = document.getElementById("player-rock");
