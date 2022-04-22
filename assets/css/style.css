@@ -32,6 +32,7 @@ body {
     left: 0;
     right: 0;
     transform: translateX(10px);
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
 }
 
 /* Game Page */
@@ -43,6 +44,7 @@ body {
     height: 600px;
     margin: 30px auto;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
 }
 
 .popup {
