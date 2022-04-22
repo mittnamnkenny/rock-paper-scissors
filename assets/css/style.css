@@ -115,3 +115,20 @@ body {
     color: red;
     background-color: #0B5E8A;
 }
+
+/* Animations */
+
+.hide {
+    animation: slide-out 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+}
