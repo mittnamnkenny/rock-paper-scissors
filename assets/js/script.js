@@ -1,3 +1,10 @@
+// Welcome Page Section
+
+const welcomePage = document.getElementById("welcome-page");
+const playBtn = document.getElementById("play");
+
+// Game Page Section
+
 const rock = document.getElementById("player-rock");
 const paper = document.getElementById("player-paper");
 const scissors = document.getElementById("player-scissors");
