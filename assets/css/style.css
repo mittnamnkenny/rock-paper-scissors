@@ -16,6 +16,26 @@ body {
     color: #210024;
 }
 
+/* Welcome Page */
+
+.welcome-page {
+    background-color: #FBF8F8;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(10px);
+}
+
+/* Game Page */
+
 .game-page {
     background-color: #FBF8F8;
     width: 100%;
