@@ -56,6 +56,16 @@ header {
     font-weight: 900;
 }
 
+nav button {
+    background-color: #210024;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+nav button:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* Welcome Page */
 
 .welcome-page {
