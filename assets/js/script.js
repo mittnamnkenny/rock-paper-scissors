@@ -50,11 +50,13 @@ function computeWinner(e) {
         getComputerOpponent(character, "win").classList.add("win");
         loss.classList.add("loss");
         computerScore.textContent = ++computerCount;
+        showResult();
     } else {
         character.classList.add("win");
         getComputerOpponent(character, "loss").classList.add("loss");
         win.classList.add("win");
         playerScore.textContent = ++playerCount;
+        playerResult.textContent = playerCount;
     }
 
     setTimeout(function() {
@@ -91,3 +93,23 @@ function getComputerOpponent(character, winLoseTie) {
         return computerRock;
     }
 }
+
+// Result Page Section
+
+const resultPage = document.getElementById("result-page");
+const playerResult = document.getElementById("player-result");
+const playAgainBtn = document.getElementById("play-again");
+
+function showResult() {
+    if (computerCount == 5) {
+        resultPage.classList.add("show");
+    }
+}
+
+playAgainBtn.addEventListener("click", function() {
+    resultPage.classList.remove("show");
+    playerCount = 0;
+    computerCount = 0;
+    playerScore.innerHTML = "0";
+    computerScore.innerHTML = "0";
+})
