@@ -16,6 +16,20 @@ body {
     color: #210024;
 }
 
+h1, h2, h3 {
+    color: #0B5E8A;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
 button {
     background-color: #0B5E8A;
     color: #FBF8F8;
@@ -168,6 +182,8 @@ nav button:hover {
     color: red;
     background-color: #0B5E8A;
 }
+
+/* Result Page */
 
 .result-page {
     background-color: #FBF8F8;
