@@ -215,6 +215,18 @@ nav button:hover {
     box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
 }
 
+.result-page h1 {
+    font-size: 1.8em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.result-page h2 span {
+    font-size: 1.5em;
+    color: #210024;
+}
+
 /* Animations */
 
 .hide {
