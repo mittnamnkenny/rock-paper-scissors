@@ -16,6 +16,22 @@ body {
     color: #210024;
 }
 
+button {
+    background-color: #0B5E8A;
+    color: #FBF8F8;
+    font-size: 1.5em;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #210024;
+    color: #FBF8F8;
+}
+
 /* Header */
 
 header {
