@@ -16,6 +16,30 @@ body {
     color: #210024;
 }
 
+/* Header */
+
+header {
+    background-color: #210024;
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
+}
+
+.header {
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: #FBF8F8;
+    font-weight: 900;
+}
+
 /* Welcome Page */
 
 .welcome-page {
@@ -25,7 +49,7 @@ body {
     width: 100%;
     max-width: 800px;
     height: 600px;
-    margin: 40px auto;
+    margin: 100px auto;
     padding: 30px;
     top: 0;
     bottom: 0;
