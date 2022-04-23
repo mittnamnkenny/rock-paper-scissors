@@ -72,6 +72,7 @@ nav button:hover {
 .welcome-page {
     background-color: #FBF8F8;
     position: absolute;
+    overflow: scroll;
     z-index: 2;
     width: 100%;
     max-width: 800px;
@@ -93,7 +94,7 @@ nav button:hover {
     width: 100%;
     max-width: 800px;
     height: 600px;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
 }
@@ -123,7 +124,7 @@ nav button:hover {
 .game-area h2 {
     color: #0B5E8A;
     position: absolute;
-    top: 60px;
+    top: 120px;
 }
 
 .game-area span {
@@ -175,7 +176,7 @@ nav button:hover {
     width: 100%;
     max-width: 800px;
     height: 600px;
-    margin: 40px auto;
+    margin: 100px auto;
     padding: 30px;
     top: 0;
     bottom: 0;
