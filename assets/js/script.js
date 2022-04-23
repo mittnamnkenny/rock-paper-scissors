@@ -99,10 +99,18 @@ function getComputerOpponent(character, winLoseTie) {
 const resultPage = document.getElementById("result-page");
 const playerResult = document.getElementById("player-result");
 const playAgainBtn = document.getElementById("play-again");
+const resultMessage = document.getElementById("result-message");
 
 function showResult() {
     if (computerCount == 5) {
         resultPage.classList.add("show");
+        if (playerCount < 5) {
+            resultMessage.textContent = "You can do better";
+        } else if (playerCount < 10) {
+            resultMessage.textContent = "Well played";
+        } else {
+            resultMessage.textContent = "You are awesome";
+        }
     }
 }
 
