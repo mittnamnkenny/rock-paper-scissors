@@ -116,6 +116,23 @@ body {
     background-color: #0B5E8A;
 }
 
+.result-page {
+    background-color: #FBF8F8;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* transform: translateY(-200%); */
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
+}
+
 /* Animations */
 
 .hide {
@@ -129,6 +146,6 @@ body {
     }
     to {
         opacity: 0;
-        transform: translateX(-200%);
+        transform: translateY(-200%);
     }
 }
