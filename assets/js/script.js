@@ -91,5 +91,3 @@ function getComputerOpponent(character, winLoseTie) {
         return computerRock;
     }
 }
-
-
