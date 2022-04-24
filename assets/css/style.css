@@ -87,7 +87,7 @@ nav button:hover {
     background-color: #FBF8F8;
     position: absolute;
     overflow: scroll;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
     max-width: 800px;
     height: 600px;

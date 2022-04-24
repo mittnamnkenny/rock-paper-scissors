@@ -126,7 +126,19 @@ playAgainBtn.addEventListener("click", function() {
 
 // Nav Section
 
-
-const restart = document.getElementById("restart");
 const instructions = document.getElementById("instructions");
+const restart = document.getElementById("restart");
 
+instructions.addEventListener("click", function() {
+    welcomePage.classList.remove("hide");
+    welcomePage.style.color = "red";
+})
+
+restart.addEventListener("click", function() {
+    resultPage.classList.remove("show");
+    welcomePage.classList.remove("hide");
+    playerCount = 0;
+    computerCount = 0;
+    playerScore.innerHTML = "0";
+    computerScore.innerHTML = "0";
+})
