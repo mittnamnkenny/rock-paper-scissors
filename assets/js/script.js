@@ -108,8 +108,10 @@ function showResult() {
             resultMessage.textContent = "You can do better";
         } else if (playerCount < 10) {
             resultMessage.textContent = "Well played";
-        } else {
+        } else if (playerCount < 15) {
             resultMessage.textContent = "You are awesome";
+        } else {
+            resultMessage.textContent="mittnamnkenny's highscore is 47 ;) ";
         }
     }
 }
