@@ -41,11 +41,11 @@ function computeWinner(e) {
 
     let randomNumber = Math.floor(Math.random() * 3);
 
-    if (randomNumber === 1) {
+    if (randomNumber == 1) {
         character.classList.add("tie");
         getComputerOpponent(character, "tie").classList.add("tie");
         tie.classList.add("tie");
-    } else if (randomNumber === 2) {
+    } else if (randomNumber == 2) {
         character.classList.add("loss");
         getComputerOpponent(character, "win").classList.add("win");
         loss.classList.add("loss");
@@ -123,3 +123,10 @@ playAgainBtn.addEventListener("click", function() {
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
 })
+
+// Nav Section
+
+
+const restart = document.getElementById("restart");
+const instructions = document.getElementById("instructions");
+
