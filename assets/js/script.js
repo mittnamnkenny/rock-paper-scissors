@@ -131,7 +131,7 @@ const restart = document.getElementById("restart");
 
 instructions.addEventListener("click", function() {
     welcomePage.classList.remove("hide");
-    welcomePage.style.color = "red";
+    welcomePage.style.color = "crimson";
 })
 
 restart.addEventListener("click", function() {
@@ -141,4 +141,5 @@ restart.addEventListener("click", function() {
     computerCount = 0;
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
+    welcomePage.style.color = "#210024";
 })
