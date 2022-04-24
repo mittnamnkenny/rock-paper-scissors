@@ -257,3 +257,11 @@ nav button:hover {
         transform: translateX(10px);
     }
 }
+
+/* Media Queries */
+
+@media (max-width: 920px) {
+    .header {
+        padding-right: 0;
+    }
+}
