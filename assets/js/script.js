@@ -132,6 +132,11 @@ const restart = document.getElementById("restart");
 instructions.addEventListener("click", function() {
     welcomePage.classList.remove("hide");
     welcomePage.style.color = "crimson";
+    if (playerCount > 0 || computerCount > 0) {
+        playBtn.innerHTML = "Continue Playing";
+    } else {
+        playBtn.innerHTML = "Play";
+    }
 })
 
 restart.addEventListener("click", function() {
