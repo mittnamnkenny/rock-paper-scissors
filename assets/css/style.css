@@ -276,4 +276,12 @@ nav button:hover {
     nav button {
         font-size: 0.8em;
     }
+
+    .popup span {
+        margin-top: -60px;
+    }
+
+    .game-area h2 {
+        font-size: 1em;
+    }
 }
