@@ -147,4 +147,5 @@ restart.addEventListener("click", function() {
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
     welcomePage.style.color = "#210024";
+    playBtn.innerHTML = "Play";
 })
