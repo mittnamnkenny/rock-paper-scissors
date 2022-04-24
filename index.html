@@ -58,9 +58,13 @@
                 <h2>Player:
                     <span id="player-score">0</span> p
                 </h2>
-                <i id="player-rock" class="fa-solid fa-hand-back-fist"></i>
-                <i id="player-paper" class="fa-solid fa-hand"></i>
-                <i id="player-scissors" class="fa-solid fa-hand-scissors"></i>
+                <!-- Semantic Icons with Accessible Markup -->
+                <i id="player-rock" aria-hidden="true" class="fa-solid fa-hand-back-fist" title="Player Rock"></i>
+                <span class="sr-only">Player Rock</span>
+                <i id="player-paper" aria-hidden="true" class="fa-solid fa-hand" title="Player Paper"></i>
+                <span class="sr-only">Player Paper</span>
+                <i id="player-scissors" aria-hidden="true" class="fa-solid fa-hand-scissors" title="Player Scissors"></i>
+                <span class="sr-only">Player Scissors</span>
             </div>
 
             <div class="game-area-computer">
