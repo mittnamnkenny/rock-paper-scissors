@@ -86,11 +86,11 @@ nav button:hover {
 .welcome-page {
     background-color: #FBF8F8;
     position: absolute;
-    overflow: scroll;
     z-index: 3;
     width: 100%;
     max-width: 800px;
-    height: 600px;
+    min-height: 600px;
+    max-height: fit-content;
     margin: 100px auto;
     padding: 30px;
     top: 0;
