@@ -265,3 +265,15 @@ nav button:hover {
         padding-right: 0;
     }
 }
+
+@media (max-width: 650px) {
+    nav {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    nav button {
+        font-size: 0.8em;
+    }
+}
