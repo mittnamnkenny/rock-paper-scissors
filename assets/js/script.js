@@ -131,7 +131,7 @@ const restart = document.getElementById("restart");
 
 instructions.addEventListener("click", function() {
     welcomePage.classList.remove("hide");
-    welcomePage.style.color = "crimson";
+    welcomePage.getElementsByTagName("h1")[0].style.display = "none";
     if (playerCount > 0 || computerCount > 0) {
         playBtn.innerHTML = "Continue Playing";
     } else {
@@ -146,6 +146,6 @@ restart.addEventListener("click", function() {
     computerCount = 0;
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
-    welcomePage.style.color = "#210024";
+    welcomePage.getElementsByTagName("h1")[0].style.display = "block";
     playBtn.innerHTML = "Play";
 })
