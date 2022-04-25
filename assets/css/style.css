@@ -212,6 +212,18 @@ nav button:hover {
     background-color: #0B5E8A;
 }
 
+.rock, .paper {
+    transform: rotate(90deg);
+}
+
+.scissors {
+    transform: scaleY(-1) rotate(180deg);
+}
+
+.computer-rock, .computer-paper {
+    transform: rotate(-90deg) scaleX(-1);
+}
+
 /* Result Page */
 
 .result-page {
