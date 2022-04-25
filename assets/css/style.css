@@ -30,11 +30,13 @@ h1, h2, h3 {
 }
 
 p {
+    line-height: 1.6; 
     text-align: justify;
 }
 
 ul {
     list-style-type: none;
+    margin: 10px;
 }
 
 button {
