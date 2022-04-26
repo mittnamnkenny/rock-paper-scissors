@@ -255,6 +255,26 @@ nav button:hover {
     color: #210024;
 }
 
+footer {
+    background-color: #210024;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks a {
+    color: #FBF8F8;
+    font-size: 1em;
+    text-decoration: none;
+}
+
 /* Animations */
 
 .hide {
