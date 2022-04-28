@@ -5,7 +5,7 @@ const playBtn = document.getElementById("play");
 // Button to initialise the game
 playBtn.addEventListener("click", function() {
     welcomePage.classList.add("hide");
-})
+});
 
 // Game Page Variables
 const rock = document.getElementById("player-rock");
@@ -124,7 +124,7 @@ playAgainBtn.addEventListener("click", function() {
     computerCount = 0;
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
-})
+});
 
 /**
  * Function to show the result page 
@@ -152,13 +152,13 @@ const restart = document.getElementById("restart");
 // Button for showing the game instructions whenever the user wants
 instructions.addEventListener("click", function() {
     welcomePage.classList.remove("hide");
-    welcomePage.getElementsByTagName("h1")[0].style.display = "none";
+    welcomePage.getElementsByTagName("h2")[0].style.display = "none";
     if (playerCount > 0 || computerCount > 0) {
         playBtn.innerHTML = "Continue Playing";
     } else {
         playBtn.innerHTML = "Play";
     }
-})
+});
 
 // Button for restart the game whenever the user wants and reset score and layouts
 restart.addEventListener("click", function() {
@@ -168,6 +168,6 @@ restart.addEventListener("click", function() {
     computerCount = 0;
     playerScore.innerHTML = "0";
     computerScore.innerHTML = "0";
-    welcomePage.getElementsByTagName("h1")[0].style.display = "block";
+    welcomePage.getElementsByTagName("h2")[0].style.display = "block";
     playBtn.innerHTML = "Play";
-})
+});
