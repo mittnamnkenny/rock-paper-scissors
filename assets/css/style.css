@@ -107,6 +107,7 @@ nav button:hover {
     width: 100%;
     max-width: 800px;
     height: 600px;
+    max-height: max-content;
     overflow: auto;
     margin: 100px auto;
     padding: 30px;
@@ -199,18 +200,21 @@ nav button:hover {
 }
 
 .tie {
+    z-index: 5;
     visibility: visible;
     color: #FBF8F8;
     background-color: #0B5E8A;
 }
 
 .win {
+    z-index: 5;
     visibility: visible;
     color: green;
     background-color: #0B5E8A;
 }
 
 .loss {
+    z-index: 5;
     visibility: visible;
     color: red;
     background-color: #0B5E8A;
@@ -266,8 +270,8 @@ nav button:hover {
 footer {
     background-color: #210024;
     position: fixed;
+    height: max-content;
     bottom: 0;
-    z-index: 4;
     width: 100%;
 }
 
@@ -327,8 +331,12 @@ footer {
     }
 
     footer {
-        position: sticky;
-        position: -webkit-sticky;
+        position: absolute;
+        top: 50px;
+    }
+
+    .social-networks {
+        justify-content: left;
     }
 
     @keyframes slide-in {    
@@ -345,13 +353,19 @@ footer {
 @media (max-width: 650px) {
     nav {
         position: absolute;
-        top: 50px;
+        background-color: #210024;
+        width: 100%;
+        top: 75px;
         border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
 
     nav button {
         font-size: 0.8em;
         margin: 0;
+    }
+
+    .welcome-page {
+        margin: 120px auto;
     }
 
     .popup span {
