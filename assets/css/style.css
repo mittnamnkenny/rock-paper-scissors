@@ -107,7 +107,6 @@ nav button:hover {
     width: 100%;
     max-width: 800px;
     height: 600px;
-    max-height: max-content;
     overflow: auto;
     margin: 100px auto;
     padding: 30px;
