@@ -106,8 +106,8 @@ nav button:hover {
     z-index: 3;
     width: 100%;
     max-width: 800px;
-    min-height: 600px;
-    max-height: fit-content;
+    height: 600px;
+    overflow: auto;
     margin: 100px auto;
     padding: 30px;
     top: 0;
@@ -324,6 +324,10 @@ footer {
 
     .welcome-page {
         transform: translateX(0);
+    }
+
+    footer {
+        position: static;
     }
 
     @keyframes slide-in {    
