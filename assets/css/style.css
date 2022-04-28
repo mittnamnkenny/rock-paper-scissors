@@ -267,8 +267,6 @@ nav button:hover {
 }
 
 footer {
-    background-color: #210024;
-    position: fixed;
     height: max-content;
     bottom: 0;
     width: 100%;
@@ -281,6 +279,7 @@ footer {
 }
 
 .social-networks a {
+    background-color: #210024;
     color: #FBF8F8;
     font-size: 1em;
 }
