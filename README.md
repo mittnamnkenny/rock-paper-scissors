@@ -102,3 +102,14 @@ This site is targeted toward people who have an interest in both gaming and Java
 ### Features Left to Implement
 
 - Make the website available in two languages;  English and Swedish.
+
+## Design
+
+- I have used a mixture of dark purple #210024 and blue sapphire #0b5e8a as the main colour theme for this site.
+- All page sections have a background colour of snow #FBF8F8 to make the text stand out and easy to read.
+
+![Colours](assets/media/colours.png)
+
+- Scalable Vector Graphic are used for the background image with a fallback background colour if the image should fail to load.
+- One SVG-wave was positioned at the bottom to improve the overall design.
+- Google Fonts were used to import the font family Poppins that was chosen and used throughout the whole site with Sans Serif as the fallback font. Poppins both looks good and is easy to read.
