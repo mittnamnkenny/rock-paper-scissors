@@ -127,3 +127,62 @@ This site is targeted toward people who have an interest in both gaming and Java
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
 - [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+
+## Testing
+
+### Browser testing
+- I have tested that this page works using macOS (Macbook Air).
+- I have tested that this page works in the following browsers using macOS: Chrome, Safari and Firefox.
+- I have tested this page works on iOS devices using Safari browser (iPhone X and iPad Air).
+
+### Responsivness
+- Chrome developer tool have been used to check the responsivness.
+- I have tested that this page works on different screen sizes from iPhone 5 (320px wide) and very large screens like 5K iMac Pro (5120 x 2880 px).
+
+### Validator Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there.
+
+- W3C Markup Validator
+![HTML results](assets/media/html.png)
+
+- W3C CSS Validator
+![CSS results](assets/media/css.png)
+
+JSHint was used to validate the JavaScript with no errors highlighted.
+- JSHint
+![JSHint results](assets/media/js.png)
+
+I have confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome developer tools.
+
+- Lighthouse
+![Lighthouse](assets/media/lighthouse.png)
+
+### Functionality
+
+| ID | Test Label                              | Test Action                                                     | Expected Outcome                                                                                                                                          | Test Outcome                                                                        |
+|----|---------------------------------------- |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+|  1 | Welcome to my Rock Paper Scissors game! | When a user enters the website                                  | The user is presented with the welcome page and the instructions on how to play the game                                                                  | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  2 | Welcome page / Game Setup               | User clicks on the play button                                  | The welcome page disappears and the user is presented with the game page                                                                                  | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  3 | Game area / Icons                       | The user clicks one of the three icons: Rock, Paper or Scissors | The computer will display a random icon, either Rock, Paper or Scissors, and depending on the outcome a popup will appear with the text: Tie, Win or Loss | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  4 | Game area / Icons colours               | The user clicks one of the three icons: Rock, Paper or Scissors | The icon colour for both player and computer will change to green when win and red when loss                                                              | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  5 | Game area / Incrementing score          | The user clicks one of the three icons: Rock, Paper or Scissors | Player or computer score will increment by 1 p depending on the outcome                                                                                   | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  6 | Game area / Spamming the icons          | User clicks on the player icons in rapid succession             | The score should increment correctly and the animations should still function                                                                             | *PASS / Depending on how fast the user clicks the animations will be hard to follow |                                                                                                                                                                                                                                                                                                            |
+|  7 | Game area / Result                      | When computer score reaches 5 p                                 | The user will be presented with the result page                                                                                                           | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  8 | Result page / Score                     | Player score                                                    | The user is presented with the correct points received                                                                                                    | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+|  9 | Result page / Text message              | Text message                                                    | The user is presented with the correct text message depending on the received player score                                                                | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+| 10 | Result page / Play again                | User clicks on the play again button                            | The user will be presented with the game page and both player and computer score are reset                                                                | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+| 11 | Navigation / Instructions               | User clicks on the Instructions                                 | The user can read the instructions at any time without compromising the game                                                                              | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+| 12 | Navigation / Restart game               | User clicks on Restart Game                                     | The user can restart the game at any time                                                                                                                 | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+| 13 | Footer / Social networks                | User clicks on Visit my GitHub page                             | My repo opens in a new tab and the address is correct                                                                                                     | PASS                                                                                |                                                                                                                                                                                                                                                                                                            |
+
+### Further Testing
+
+- I have tested that the hover effect on all buttons and links works as expected.
+- I have tested that all animations work correctly.
+- I have tested that all Font Awesome icons are displayed correctly.
+
+### Solved bugs
+
+- When using Safari browser user-select: none; was added to the body in the style.css file, to prevent text/element selection, that could happen when playing the game and entering the result page due to the animations and numbers of clicks.
+This is not considered a bug, but it will affect the overall design.
