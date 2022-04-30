@@ -113,3 +113,17 @@ This site is targeted toward people who have an interest in both gaming and Java
 - Scalable Vector Graphic are used for the background image with a fallback background colour if the image should fail to load.
 - One SVG-wave was positioned at the bottom to improve the overall design.
 - Google Fonts were used to import the font family Poppins that was chosen and used throughout the whole site with Sans Serif as the fallback font. Poppins both looks good and is easy to read.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- [Google Fonts:](https://fonts.google.com/) To import font family ’Poppins’ into the style.css file which is used throughout the website. Added fallback font sans-serif.
+- [Font Awesome:](https://fontawesome.com/) Was used in header and contact section to add icons for aesthetic and UX purposes.
+- [SVG Backgrounds:](https://svgbackgrounds.com/) Scalable Vector Graphic used for the background image. Should the background image fail there is a fallback background colour set so the page still functions.
+- [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave.
+- [Gauger:](https://gauger.io/fonticon/) Create beautiful favicon with ease.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
