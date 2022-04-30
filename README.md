@@ -186,3 +186,23 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 
 - When using Safari browser user-select: none; was added to the body in the style.css file, to prevent text/element selection, that could happen when playing the game and entering the result page due to the animations and numbers of clicks.
 This is not considered a bug, but it will affect the overall design.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - Log in to GitHub and locate the GitHub Repository.
+  - In the GitHub repository, navigate to the "Settings" tab.
+  - In Settings, choose "Pages" from the left hand menu.
+  - Under "Source", select branch "Main" and select folder "(Root)".
+  - Click Save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![GitHub](assets/media/github.png)
+
+## Credits
+
+- [Google Fonts:](https://fonts.google.com/) To import font family ’Poppins’.
+- [Font Awesome:](https://fontawesome.com/) Was used to add icons.
+- [SVG Backgrounds:](https://svgbackgrounds.com/) Scalable Vector Graphic used for main background.
+- [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave.
+- [Gauger:](https://gauger.io/fonticon/) Create beautiful favicon with ease.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
