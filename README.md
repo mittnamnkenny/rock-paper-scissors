@@ -206,3 +206,17 @@ This is not considered a bug, but it will affect the overall design.
 - [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave.
 - [Gauger:](https://gauger.io/fonticon/) Create beautiful favicon with ease.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+
+### Code
+
+* [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) code used to generate a gradient SVG wave:
+
+    `<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 270" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(33, 0, 36, 0)" offset="0%"></stop><stop stop-color="rgba(11, 94, 138, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,108L130.9,0L261.8,81L392.7,189L523.6,27L654.5,162L785.5,216L916.4,27L1047.3,81L1178.2,27L1309.1,216L1440,54L1570.9,27L1701.8,0L1832.7,189L1963.6,243L2094.5,189L2225.5,108L2356.4,189L2487.3,135L2618.2,162L2749.1,216L2880,54L3010.9,54L3141.8,0L3141.8,270L3010.9,270L2880,270L2749.1,270L2618.2,270L2487.3,270L2356.4,270L2225.5,270L2094.5,270L1963.6,270L1832.7,270L1701.8,270L1570.9,270L1440,270L1309.1,270L1178.2,270L1047.3,270L916.4,270L785.5,270L654.5,270L523.6,270L392.7,270L261.8,270L130.9,270L0,270Z"></path></svg>`
+  
+* [SVG Backgrounds:](https://svgbackgrounds.com/) code for background "Spectrum gradient":
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23100012'/%3E%3Cstop offset='1' stop-color='%23100012' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23052f45'/%3E%3Cstop offset='1' stop-color='%23052f45' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230f0359'/%3E%3Cstop offset='1' stop-color='%230f0359' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23000000' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23210024'/%3E%3Cstop offset='1' stop-color='%23210024' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230B5E8A'/%3E%3Cstop offset='1' stop-color='%230B5E8A' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+   
+### Acknowledgements
+
+- My mentor at Code Institute for helpful feedback.
