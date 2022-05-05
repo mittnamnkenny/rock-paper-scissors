@@ -99,15 +99,15 @@ function getComputerOpponent(character, winLoseTie) {
     } else if (character.id == "player-paper" && winLoseTie == "tie") {
         return computerPaper;
     } else if (character.id == "player-paper" && winLoseTie == "win") {
-        return computerRock;
-    } else if (character.id == "player-paper" && winLoseTie == "loss") {
         return computerScissors;
+    } else if (character.id == "player-paper" && winLoseTie == "loss") {
+        return computerRock;
     } else if (character.id == "player-scissors" && winLoseTie == "tie") {
         return computerScissors;
     } else if (character.id == "player-scissors" && winLoseTie == "win") {
-        return computerPaper;
-    } else {
         return computerRock;
+    } else {
+        return computerPaper;
     }
 }
 
