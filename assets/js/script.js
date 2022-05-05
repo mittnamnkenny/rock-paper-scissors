@@ -42,6 +42,7 @@ for (let character of characters) {
 /**
  * Function to calculate winner 
  * based on clicked character above
+ * @param {object} e - from "characters"
  */
 function computeWinner(e) {
 
@@ -88,6 +89,9 @@ function computeWinner(e) {
 /**
  * Function to return correct computer opponent
  * based on player outcome above
+ * @param {object} character - from "characters"
+ * @param {string} winLoseTie - "tie, win or loss"
+ * @returns {object}
  */
 function getComputerOpponent(character, winLoseTie) {
     if (character.id == "player-rock" && winLoseTie == "tie") {
